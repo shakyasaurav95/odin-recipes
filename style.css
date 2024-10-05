@@ -1,3 +1,8 @@
+* {
+    /* margin: 0; */
+    /* padding: 0; */
+    box-sizing: border-box;
+}
 .container {
     font-family: Arial, Verdana, "Times New Roman";
     text-align: center;
@@ -13,6 +18,8 @@
 .num-block {
     display: inline-block;
     list-style-position: inside;
+    width: 540px;
+    text-align: left;
 }
 
 h1 {
@@ -27,8 +34,8 @@ img {
     
     border-radius: 20px;
     border: rgb(245, 170, 157) solid;
-    padding: 5px;
+    
 }
-.font-size{
-    font-size: 20px;
+.home{
+    border: 0;
 }    
